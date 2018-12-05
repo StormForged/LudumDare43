@@ -1,0 +1,2 @@
+ludum: main.cpp wizard.cpp fireWizard.cpp
+	g++ -o a main.cpp wizard.cpp fireWizard.cpp frostWizard.cpp felWizard.cpp human.cpp healthyHuman.cpp sickHuman.cpp prison.cpp spawnatorium.cpp sacrificeCircle.cpp grinder.cpp felLab.cpp spells.cpp spellsFreeze.cpp spellsFire.cpp spellsFel.cpp collector.cpp foodGremlin.cpp hudObject.cpp baddy.cpp -lsfml-graphics -lsfml-window -lsfml-system
